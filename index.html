@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Slider</title>
+    <style>
+        .slider {
+            width: 640px;
+            height: 360px;
+            margin: 0 auto;
+        }
+
+        #slider-img {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center">Welcome to my Custom Slider</h1>
+    <div class="slider">
+        <img id="slider-img" src="images/pic-1.jpg" alt="">
+    </div>
+    <div style="text-align: center; margin-top: 10px;">
+        <button onclick="backward()">Backward</button>
+        <button onclick="forward()">Forward</button>
+    </div>
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
